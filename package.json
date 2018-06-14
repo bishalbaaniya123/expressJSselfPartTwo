@@ -1,0 +1,17 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "simple knowledgebase app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Bishal Baaniya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5",
+    "pug": "^2.0.3"
+  }
+}
