@@ -70,7 +70,7 @@ router.post('/login', function (req, res, next) {
 });
 
 //logout
-router.get('/logout', function () {
+router.get('/logout', function (req, res) {
    req.logout();
    req.flash('Success', 'You are logged out');
    res.redirect('/users/login');

@@ -12,10 +12,12 @@ html
                     a(href='/') Home
                 if user
                     li
-                        a(href='/users/login') Logout
-                else
+                        a(href='/users/logout') Logout
                     li
                         a(href='/articles/add') Add Article
+                else
+                    li
+                        a(href='/users/login') Login
                     li
                         a(href='/users/register') Register
         .container
